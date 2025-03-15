@@ -1,6 +1,6 @@
 # Virtualization and VM Setup
 
-This repository contains resources and scripts for setting up virtual machines (VMs) using both **manual** and **automated** approaches, primarily focusing on **CentOS** and **Vagrant**.
+This repository contains resources and scripts for setting up virtual machines (VMs) using both **manual** and **automated** approaches, primarily focusing on **Virtualization** and **Vagrant**.
 
 ## 📂 Repository Structure
 
