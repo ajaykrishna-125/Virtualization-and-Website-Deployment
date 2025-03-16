@@ -37,6 +37,7 @@ Virtualization-and-Website-Deployment
 │
 ├── Docs-Theory
 │   ├── Virtualization-Concepts.md  (Hypervisors, VMs, networking)
+│   ├── Networking in Virtualization.md  (DHCP, Bridged Networking, NAT Networking)
 │   ├── Vagrant-Concepts.md  (Provisioning, multi-VM setup)
 │   ├── Web-Hosting-Concepts.md  (httpd vs apache2, LAMP stack)
 │
