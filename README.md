@@ -1,45 +1,68 @@
-# Virtualization and VM Setup
+# Virtualization-and-Website-Deployment
 
-This repository contains resources and scripts for setting up virtual machines (VMs) using both **manual** and **automated** approaches, primarily focusing on **Virtualization** and **Vagrant**.
-
-## 📂 Repository Structure
+## Folder Structure
 
 ```
-Virtualization-and-VM-Setup/
-│── docs/                              # Documentation
-│   ├── Networking in Virtualization.md
-│   ├── Vagrant for virtualization.md
-│   ├── Virtualization Concepts.md
-│── Manual-VM-Setup/CentOS/            # Manual VM setup for CentOS
-│   ├── screenshots/                   
-│   ├── setup-guide.md                 
-│── Vagrant-Automation-VM-Setup/CentOS/ # Automated VM setup using Vagrant
-│   ├── provision.sh                    
-│   ├── setup-guide.sh                   
-│   ├── Vagrantfile                      
-│── README.md                            # This file
+Virtualization-and-Website-Deployment
+│
+├── 1-VM-Creation
+│   ├── README.md  (Explains virtualization, manual & automated setup)
+│   ├── Manual-Setup
+│   │   ├── VM-Setup-Steps.md  (Step-by-step manual VM setup)
+│   │   ├── Screenshots  (VM creation screenshots)
+│   ├── Automated-Setup
+│   │   ├── Vagrantfile  (Vagrant configuration file)
+│   │   ├── Screenshots  (Vagrant up execution, VM details)
+|   |   ├── setup-guide.md  (Step-by-step automated VM setup)
+│
+├── 2-Mini-Finance-Website
+│   ├── README.md  (Explains httpd, CentOS, deployment steps)
+│   ├── Manual-Setup
+│   │   ├── Finance-Website-Setup.md  (Step-by-step guide)
+│   │   ├── Vagrantfile  (Vagrant configuration file)
+│   ├── Automated-Setup
+│   │   ├── Vagrantfile  (Vagrant configuration for auto setup)
+│   │   ├── Automated-Setup.md  (Step-by-step automated site deployment)
+│   ├── Website-Files
+│   │   ├── 2135_mini_finance/  (Actual static HTML files)
+│
+├── 3-WordPress-Deployment
+│   ├── README.md  (Explains LAMP, MySQL, Ubuntu, WordPress)
+│   ├── Manual-Setup
+│   │   ├── manual-WordPress-Setup.md  (Step-by-step guide)
+│   │   ├── Vagrantfile  (Vagrant configuration file)
+│   ├── Automated-Setup
+│   │   ├── Vagrantfile  (Vagrant configuration for WordPress)
+│   │   ├── Automated-setup-WordPress.md  (Step-by-step automated site deployment)
+│
+├── Docs-Theory
+│   ├── Virtualization-Concepts.md  (Hypervisors, VMs, networking)
+│   ├── Vagrant-Concepts.md  (Provisioning, multi-VM setup)
+│   ├── Web-Hosting-Concepts.md  (httpd vs apache2, LAMP stack)
+│
+├── README.md  (Main project overview, TOC, setup instructions)
 ```
 
-## 📝 Documentation
+## Overview
 
-The `docs/` folder contains guides on virtualization concepts, networking, and using Vagrant for virtualization.
+This project provides a comprehensive guide for setting up virtualization, deploying a mini-finance website, and hosting a WordPress site using manual and automated approaches. The setup includes VM creation, web hosting, and theoretical concepts related to virtualization.
 
-## 🛠️ Manual VM Setup
+## Getting Started
 
-The `Manual-VM-Setup/CentOS/` directory provides a step-by-step guide to manually setting up a CentOS VM.
+1. Navigate to the relevant section based on your requirement.
+2. Follow the manual or automated setup guides.
+3. Refer to the documentation for conceptual understanding.
 
-## 🤖 Automated VM Setup
+## Prerequisites
 
-The `Vagrant-Automation-VM-Setup/CentOS/` directory contains scripts and a `Vagrantfile` to automate the VM setup using Vagrant.
+- VirtualBox / VMware
+- Vagrant
+- Apache / Nginx
+- MySQL / MariaDB
+- WordPress (if deploying a WordPress site)
 
-## 🚀 Getting Started
+## Installation
 
-1. For manual setup, follow the steps in `setup-guide.md`.
-2. For automated setup:
-   - Install [Vagrant](https://www.vagrantup.com/downloads).
-   - Navigate to `Vagrant-Automation-VM-Setup/CentOS/`.
-   - Run: `vagrant up`.
-
-
+Refer to the individual folders for detailed setup instructions.
 
 
