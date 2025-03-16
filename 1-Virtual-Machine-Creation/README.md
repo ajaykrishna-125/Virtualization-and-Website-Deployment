@@ -5,16 +5,16 @@ This section covers setting up Virtual Machines (VMs) both **manually** and **au
 
 ## Folder Structure
 ```
+
 📁 1-VM-Creation
-│
-├── 📜 README.md  (This file)
-├── 📁 Manual-Setup
-│   ├── 📜 VM-Setup-Steps.md  (Step-by-step guide for manual VM setup)
-│   ├── 📂 Screenshots  (Screenshots of VirtualBox VM creation)
-│
-├── 📁 Automated-Setup
-│   ├── 📜 Vagrantfile  (Vagrant configuration for automated VM creation)
-│   ├── 📂 Screenshots  (Screenshots of Vagrant commands and VM status)
+│   ├── README.md  (Explains virtualization, manual & automated setup)
+│   ├── Manual-Setup
+│   │   ├── VM-Setup-Steps.md  (Step-by-step manual VM setup)
+│   │   ├── Screenshots  (VM creation screenshots)
+│   ├── Automated-Setup
+│   │   ├── Vagrantfile  (Vagrant configuration file)
+│   │   ├── Screenshots  (Vagrant up execution, VM details)
+|   |   ├── setup-guide.md  (Step-by-step automated VM setup)
 ```
 ---
 
