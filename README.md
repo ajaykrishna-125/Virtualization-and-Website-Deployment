@@ -5,7 +5,7 @@
 ```
 Virtualization-and-Website-Deployment
 │
-├── 1-VM-Creation
+├── 1-Virtual-Machine-Creation
 │   ├── README.md  (Explains virtualization, manual & automated setup)
 │   ├── Manual-Setup
 │   │   ├── VM-Setup-Steps.md  (Step-by-step manual VM setup)
