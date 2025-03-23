@@ -38,7 +38,7 @@ Virtualization-and-Website-Deployment
 ├── Docs-Theory
 │   ├── Virtualization & Networking in Virtualizatio.md  
 │   ├── Vagrant Concepts.md  
-│   ├── Web-Hosting-Concepts.md  
+│   ├── Web Hosting Concepts.md  
 │
 ├── README.md  (Main project overview, TOC, setup instructions)
 ```
